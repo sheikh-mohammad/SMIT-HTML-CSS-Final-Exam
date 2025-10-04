@@ -32,3 +32,12 @@ body {
     background-color: var(--primary) !important;
     color: white;
 }
+
+nav .nav-link {
+    color: black !important;
+}
+
+nav button:hover {
+    color: black !important;
+    transition: .3s all ease;
+}
