@@ -6,6 +6,7 @@
 :root {
     --font: "Roboto";
     --primary: #FD4C82;
+    --secondary: #91c235;
 }
 
 body {
@@ -40,4 +41,10 @@ nav .nav-link {
 nav button:hover {
     color: black !important;
     transition: .3s all ease;
+}
+
+@media screen and (max-width: 991px) {
+    .top-nav{
+        display: none !important;
+    }
 }
