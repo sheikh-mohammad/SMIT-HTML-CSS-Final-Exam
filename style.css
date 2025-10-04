@@ -47,19 +47,19 @@ nav button:hover {
     box-shadow: 0px 8px 21px -10px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     position: relative;
-    width: 400px;
+    width: 380px;
     height: 140px;
     top: -120px;
 }
 
 .service-card i {
     width: 80px;
+    height: 70px;
     display: flex;
     transition: all 0.3s ease;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 80px;
     background-color: #f0f0f0;
 }
 
@@ -76,6 +76,17 @@ nav button:hover {
 
 .service-card:hover i{
     background-color: white !important;
+}
+
+.about-section{
+    background-color: #F8F9FA;
+}
+
+.as-img{
+    background-image: url(assets/images/about/image.png);
+    background-size: cover;
+    background-position: center;
+    height: 688px;
 }
 
 @media screen and (max-width: 991px) {
