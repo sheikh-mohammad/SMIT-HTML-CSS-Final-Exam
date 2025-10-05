@@ -197,6 +197,72 @@ nav button:hover {
     background-color: white !important;
 }
 
+.carousel::before,
+.carousel::after,
+.carousel-item::before,
+.carousel-item::after {
+    content: none !important;
+    background: none !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: static;
+    color: var(--primary);
+    background-color: #E8F0F3;
+    opacity: 1;
+    transition: .3s all ease;
+    width: fit-content;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: var(--primary);
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #CCCCCC !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: white !important;
+}
+
+.testinomials-section{
+    padding: 120px 0px;
+    background-image: url(assets/images/testinomial/background.png);
+    position: relative;
+    background-attachment: fixed;
+}
+
+.testinomials-section::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .8;
+    background: var(--primary);
+}
+
+.testinomials-section .card{
+    width: 350px;
+    height: 250px;
+}
+
+.testinomials-section .card img{
+    width: 80px;
+    height: 80px;
+}
+
 @media screen and (max-width: 991px) {
     .top-nav {
         display: none !important;
