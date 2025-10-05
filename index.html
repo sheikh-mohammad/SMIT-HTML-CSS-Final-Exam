@@ -150,12 +150,18 @@
                     <option value="pet-sitter">Pet Sitter</option>
                     <option value="help">Veterinary Help</option>
                 </select>
-                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i class="fa-solid fa-angle-down"></i></span>
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i class="fa-solid fa-angle-down text-body-tertiary"></i></span>
             </div>
             <input type="number" name="phone" id="phone" placeholder="Phone">
-            <input type="text" name="date" id="date" placeholder="Date">
-            <input type="text" name="time" id="time" placeholder="Time">
-            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <div class="input-group w-auto">
+                <input type="text" name="date" id="date" placeholder="Date" style="padding-right: 0px; border-right: 0px solid transparent !important;">
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i class="fa-solid fa-calendar-days text-body-tertiary"></i></span>
+            </div>
+            <div class="input-group w-auto">
+                <input type="text" name="time" id="time" placeholder="Time" style="padding-right: 0px; border-right: 0px solid transparent !important;">
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i class="fa-regular fa-clock text-body-tertiary"></i></span>
+            </div>
+            <textarea name="message" id="message" placeholder="Message" class="pt-2"></textarea>
             <button class="btn py-3 small text-white">Appoinment</button>
         </div>
     </div>

@@ -135,7 +135,7 @@ nav button:hover {
 
 .appoinment-section button{
     background-color: var(--secondary);
-    padding: 0px 80px;
+    padding: 0px 60px;
     border: 1px solid transparent;
 }
 
