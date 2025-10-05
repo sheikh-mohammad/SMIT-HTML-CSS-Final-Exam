@@ -20,6 +20,9 @@ body {
     background-position: center;
 }
 
+.selected:hover{
+    color: black;
+
 .social-icons i {
     width: 30px;
     height: 30px;
