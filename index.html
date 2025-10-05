@@ -28,7 +28,7 @@
                 <i class="fa-brands fa-dribbble bg-white rounded-circle"></i>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg bg-white container-md sticky-top">
+        <nav class="navbar navbar-expand-lg bg-white container-md sticky-top z-2">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png" alt=""></a>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -106,25 +106,57 @@
             <span class="text-uppercase fw-bold small" style="color: var(--primary);">Welcome to Petvet</span>
             <h1 class="fw-bold">We Are Best Agency <br>
                 For Your Pets</h1>
-            <p class="text-body-tertiary lh-lg fs-6 w-75">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p class="text-body-tertiary lh-lg fs-6 w-75">A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
             <div class="qualities-checklist d-flex flex-column gap-3">
                 <div class="checklist d-flex gap-3 align-items-center">
-                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center" style="background-color: var(--primary);"></i>
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
                     <h5 class="fw-bold">Qualified Groomer</h5>
                 </div>
                 <div class="checklist d-flex gap-3 align-items-center">
-                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center" style="background-color: var(--primary);"></i>
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
                     <h5 class="fw-bold">Over 20 Years of Experienced</h5>
                 </div>
                 <div class="checklist d-flex gap-3 align-items-center">
-                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center" style="background-color: var(--primary);"></i>
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
                     <h5 class="fw-bold">Animal Lover</h5>
                 </div>
                 <div class="checklist d-flex gap-3 align-items-center">
-                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center" style="background-color: var(--primary);"></i>
+                    <i class="fa-solid fa-stethoscope fs-4 rounded-2 text-white py-2 px-4 d-flex justify-content-center align-items-center"
+                        style="background-color: var(--primary);"></i>
                     <h5 class="fw-bold">Best Pet Care</h5>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="appoinment-section text-center container">
+        <span class="text-uppercase fw-bold small text-center" style="color: var(--primary);">Make An Appointment</span>
+        <div class="appoin-form d-flex justify-content-center align-items-center flex-wrap gap-4 mt-3">
+            <input type="text" name="first_name" id="first_name" placeholder="First Name">
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+            <div class="input-group w-auto">
+                <select name="services" id="services">
+                    <option value="default">Select Your Services</option>
+                    <option value="pet-adopt">Pet Adoption</option>
+                    <option value="pet-groom">Pet Grooming</option>
+                    <option value="vaccination">Vaccination</option>
+                    <option value="dog-training">Dog Training</option>
+                    <option value="pet-day-care">Pet Daycare</option>
+                    <option value="pet-sitter">Pet Sitter</option>
+                    <option value="help">Veterinary Help</option>
+                </select>
+                <span class="input-group-text rounded-0 bg-transparent" id="basic-addon1"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <input type="number" name="phone" id="phone" placeholder="Phone">
+            <input type="text" name="date" id="date" placeholder="Date">
+            <input type="text" name="time" id="time" placeholder="Time">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <button class="btn py-3 small text-white">Appoinment</button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
