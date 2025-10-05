@@ -292,6 +292,26 @@ nav button:hover {
     color: black !important;
 }
 
+footer{
+    padding: 120px;
+    background-color: #E0E0E0;
+}
+
+.sep{
+    height: 3px;
+    background-color: var(--primary);
+    width: 30px;
+    margin-top: 10px;
+}
+
+.list-group-item:hover{
+    color: var(--primary) !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.bottom-footer
+
 @media screen and (max-width: 991px) {
     .top-nav {
         display: none !important;
