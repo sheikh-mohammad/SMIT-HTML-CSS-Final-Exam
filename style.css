@@ -91,7 +91,7 @@ nav button:hover {
 }
 
 .about-section {
-    padding: 120px;
+    padding: 120px 50px;
     padding-bottom: 0px;
     background-color: #F8F9FA;
 }
@@ -309,8 +309,6 @@ footer{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-
-.bottom-footer
 
 @media screen and (max-width: 991px) {
     .top-nav {
