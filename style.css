@@ -13,6 +13,10 @@ body {
     font-family: var(--font) !important;
 }
 
+html, body{
+    overflow: hidden !important;
+}
+
 .hero-section {
     background-image: url(assets/images/hero/hero.png);
     height: 100vh;
@@ -22,6 +26,7 @@ body {
 
 .selected:hover{
     color: black;
+}
 
 .social-icons i {
     width: 30px;
